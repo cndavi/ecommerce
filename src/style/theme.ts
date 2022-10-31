@@ -1,0 +1,41 @@
+import type { Theme } from 'styled-components'
+
+export const theme: Theme = {
+  font: {
+    body: `"Open Sans", sans-serif`,
+    heading: `"Open Sans", sans-serif`,
+  },
+  color: {
+    white: '#fff',
+    black: '#000',
+    darkBlue: '#002C77',
+    midToneBlue: '#004EAA',
+    brightBlue: '#0072DA',
+    lightBlue: '#6EADF3',
+    paleBlue: '#93C2F8',
+    darkPurple: '#3D0F58',
+    midTonePurple: '#50037F',
+    brightPurple: '#8345BA',
+    lightPurple: '#A77AD7',
+    palePurple: '#C1A0E8',
+    green: '#1CE19A',
+    darkGray: '#7F7F7F',
+    gray: '#BABDC7',
+    lightGray: '#F0F0F0',
+    aquaPale: '#7EDDDE',
+  },
+  colorRgba: {
+    gray: 'rgba(201, 201, 201, 0.1)',
+    darkGray: 'rgba(201, 201, 201, 0.3)',
+    white10a: 'rgba(255, 255, 255, 0.1)',
+    white20a: 'rgba(255, 255, 255, 0.2)',
+    white30a: 'rgba(255, 255, 255, 0.3)',
+    black60a: 'rgba(0, 0, 0, 0.6)',
+    darkPurple40a: 'rgba(61, 15, 88, 0.4)',
+    darkBlue40a: 'rgba(0, 44, 119, 0.4)',
+    aquaPale20a: 'rgba(126, 221, 222, 0.2)',
+  },
+  sectionInnerMaxWidth: '163.2rem',
+  sitePaddingHorizontal: '10.5%',
+  gutter: '24px',
+}
